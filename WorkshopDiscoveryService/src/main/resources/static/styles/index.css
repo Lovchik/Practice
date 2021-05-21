@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 62vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(34, 255, 223, 0.7);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-list{
+    background-color: #ff4e5f;
+}
+.checkbox-label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 180px;
+}
+.hidden{
+    display: none;
+}
+input[type='checkbox'] {
+    margin: 5px 10px;
+}
+.header{
+    width: 100%;
+}

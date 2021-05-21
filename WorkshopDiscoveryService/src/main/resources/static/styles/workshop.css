@@ -1,0 +1,66 @@
+.main{
+    width: 100%;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 50%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+}
+.workshop{
+    width: 100%;
+    height: 100%;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+}
+.workshop-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.workshop-services{
+    margin: 20px 0;
+}
+.workshop-address{
+    display: flex;
+    margin: 10px 0px;
+}
+.address-pretext{
+    margin-right: 15px;
+}
+.workshop-table{
+    width: 70%;
+}
+.workshop-button{
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.submit_button{
+    height: 100%;
+    width: 100px;
+    background: black;
+    color: white;
+}
+.myCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}

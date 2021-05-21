@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.myCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+}
+.master-submit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.hidden{
+    display: none;
+    opacity: 0!important;
+    transition: opacity linear 0.5s;
+}
+#submit-btn{
+    opacity: 1;
+    transition: opacity linear 0.5s;
+}
